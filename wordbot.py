@@ -1,6 +1,6 @@
 import PySimpleGUI as sg
 from utils import get_meaning, get_synonyms, get_antonyms
-sg.theme('Purple')
+sg.theme('Black')
 
 greeting = "Hello, I am a word bot. I can help you with words\n"
 
@@ -37,9 +37,6 @@ def display_antonyms(word):
         window['output'].print("ANTONYMS:", antonym)
     else:    
         display_error("Word is not found in corpus")
-
-def clear():
-    right
 
 
 def display_error(message):
